@@ -1,4 +1,14 @@
 import "../css/style.css";
+import image1 from '../img/bob-brewer-FD-6Q3t7Mp0-unsplash.jpg';
+import image2 from '../img/marek-piwnicki-1m8WzyEIFio-unsplash.jpg';
+import image3 from '../img/ashley-jurius-P6RHLS2u_wo-unsplash.jpg';
+
+
+  document.querySelector('.image-1').src = image1;
+document.querySelector('.image-2').src = image2;
+document.querySelector('.image-3').src = image3;
+
+
 
 const slides = document.querySelectorAll("img");
 const prev = document.querySelector(".prev");
